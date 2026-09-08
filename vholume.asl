@@ -1,6 +1,6 @@
-state ("VHOLUME-Win64-Shipping") //Taken from Toyro's Chapter Autosplitter
+state ("VHOLUME-Win64-Shipping")
 {
-    double IGT : 0x08671C68, 0xA0, 0x18, 0x138, 0x80; //0x08371AE8
+    double IGT : 0x08671C68, 0xA0, 0x18, 0x138, 0x80;
     string50 level : 0x08374B15;
 }
 
