@@ -1,7 +1,7 @@
 state ("VHOLUME-Win64-Shipping")
 {
-    double IGT : 0x08671C68, 0xA0, 0x18, 0x138, 0x80;
-    string50 level : 0x08374B15;
+    double IGT : 0x08231C90, 0xA8, 0x28, 0x138, 0x80;
+    string50 level : 0x08386035;
 }
 
 start
