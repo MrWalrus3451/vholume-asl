@@ -11,12 +11,12 @@ start
 
 reset
 {
-    if (current.IGT < old.IGT && current.level == "racetrack") return true;
+    if (current.IGT < old.IGT) return true;
 }
 
 split
 {
-    if (current.level != old.level) return true;
+    if (current.level != old.level && current.IGT > 0 && current.IGT >= old.IGT) return true;
 }
 
 update
